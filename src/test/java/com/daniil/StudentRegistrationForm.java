@@ -20,7 +20,6 @@ public class StudentRegistrationForm {
     @Test
     void studentRegistrationFormTest(){
         open("https://demoqa.com/automation-practice-form");
-
         $("#firstName").setValue("Daniil");
         $("#lastName").setValue("Kravchenko");
         $("#userEmail").setValue("secret@mail.com");
