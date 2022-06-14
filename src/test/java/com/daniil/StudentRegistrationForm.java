@@ -39,7 +39,7 @@ public class StudentRegistrationForm {
         $("#stateCity-wrapper").$(byText("NCR")).click();
         $("#city").click();
         $("#stateCity-wrapper").$(byText("Delhi")).click();
-        $("#submit").click();
+        $("#submit").scrollTo().click();
         
         $("#example-modal-sizes-title-lg").shouldBe(visible);
         $(byText("Daniil Kravchenko")).shouldBe(visible);
