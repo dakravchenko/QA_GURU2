@@ -33,7 +33,7 @@ public class StudentRegistrationForm {
         $(".react-datepicker__day--006").click();
         $("#subjectsInput").setValue("History").pressEnter();
         $("[for='hobbies-checkbox-1']").click();
-        $("#uploadPicture").uploadFromClasspath("images/1.jpg");
+        //$("#uploadPicture").uploadFromClasspath("images/1.jpg");
         $("#currentAddress").setValue("Mohadisha Temple").scrollTo();
         $("#state").scrollTo().click();
         $("#stateCity-wrapper").$(byText("NCR")).click();
